@@ -25,6 +25,23 @@ body {
     padding-left: 30px;
 }
 
+.side-bar h1 {
+    margin: 10px 0 35px -5px;
+}
+
+.side-bar h1 img {
+    margin-bottom: -10px;
+}
+
+.side-bar a img {
+    margin-bottom: -5px;
+    margin-right: 20px;
+}
+
+a {
+    padding: 10px 0;
+}
+
 .side-bar a {
     font-size: 1.2rem;
     font-weight: bold;
@@ -32,16 +49,17 @@ body {
 
 .sidebar-icon {
     filter: invert(100%);
-    width: 30px;
+    width: 25px;
 }
 
 .header-icon {
-    width: 50px;
+    width: 45px;
 }
 
 .sidebar-us {
     display: flex;
     flex-direction: column;
+    margin-bottom: 50px;
 }
 
 .sidebar-ls {
