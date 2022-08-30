@@ -13,6 +13,26 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
+.main-content {
+    margin-left: 300px;
+}
+
+a {
+    cursor: pointer;
+}
+
+button {
+    cursor: pointer;
+    background-color: #1992D4;
+    color: #fff;
+    height: 30px; 
+    width: 90px;
+    border: none;
+    border-radius: 25px;
+    margin-top: 7px;
+    margin-left: 20px;
+}
+
 /*------------------------------------- SIDE BAR ------------------------------------*/
 
 .side-bar {
@@ -23,10 +43,12 @@ body {
     flex-direction: column;
     height: 100vh;
     padding-left: 30px;
+    position: absolute;
 }
 
 .side-bar h1 {
     margin: 10px 0 35px -5px;
+    font-size: 1.5rem;
 }
 
 .side-bar h1 img {
@@ -40,6 +62,7 @@ body {
 
 .side-bar a {
     padding: 10px 0;
+    cursor: pointer;
 }
 
 .side-bar a {
@@ -66,3 +89,86 @@ body {
     display: flex;
     flex-direction: column;
 }
+
+/*------------------------------------- TOP BAR ---------------------------------------*/
+
+.top-bar {
+    display: flex;
+    flex-direction: column;
+    height: 110px;
+    align-content: center;
+    margin-bottom: 20px;
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.28);
+    -webkit-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.28);
+    -moz-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.28);
+}
+
+.topbar-us{
+    display: inherit;
+    height: 30px;
+    align-items: flex-start;
+    padding: 12px 50px;   
+}
+
+#magnifing-glass {
+    margin-bottom: -7px;
+    padding-right: 10px;
+}
+
+.search-bar input {
+    width: 700px;
+    background-color: lightgray;
+    border-radius: 25px;
+    border: none;
+    height: 22px;
+}
+
+
+.topbar-us img {
+    width: 22px;
+}
+
+.account-group {
+    display: inherit;
+    margin-left: auto;
+}
+
+.profile-name {
+    margin-left: 20px;
+    padding-top: 5px;
+}
+
+.profile-img {
+    border: none;
+    border-radius: 50%;
+    width: 30px !important;
+    height: 30px;
+    margin-left: 25px;
+}
+
+
+.topbar-ls {
+    display: inherit;
+    padding: 0 50px;
+}
+
+#profile-image-main {
+    border: none;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.name-section p {
+    font-size: 0.7rem;
+}
+
+.name-section h1 {
+    font-size: 1.5rem;
+}
+
+.btns {
+    margin-left: auto;
+}
+
+
+
