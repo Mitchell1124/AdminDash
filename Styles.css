@@ -227,11 +227,15 @@ button {
 
 .vertical-card {
     background-color: #fff;
-    width: 270px;
-    height: 300px;
+    width: 230px;
+    height: 260px;
     border: none;
     border-radius: 5px;
     padding: 30px;
+}
+
+.treding-icon {
+    border-radius: 50%;
 }
 
 .vertical-card-heading {
@@ -242,3 +246,20 @@ button {
     font-size: 0.8rem;
     color: grey;
 }
+
+hr {
+    margin: 15px 0;
+}
+
+.verticle-panel h2 {
+    margin: 20px;
+    font-size: 1.2rem;
+}
+
+.trending-element {
+    display: flex;
+    margin-bottom: 37px;
+}
+
+
+
