@@ -97,7 +97,6 @@ button {
     flex-direction: column;
     height: 110px;
     align-content: center;
-    margin-bottom: 20px;
     box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.28);
     -webkit-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.28);
     -moz-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.28);
@@ -172,3 +171,54 @@ button {
 
 
 
+/*------------------------------------- GRID AREA ---------------------------------------*/
+
+.card-area {
+    display: flex;
+    background-color: #E2E8F0;
+    height: 100vh;
+    padding-top: 20px;
+}
+
+.grid-area {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 1100px;
+    row-gap: 20px;
+    padding-top: 30px;
+}
+
+.grid-card {
+    background-color: #fff;
+    border-left: 7px solid orange;
+    border-radius: 5px;
+    width: 450px;
+    padding: 30px 15px;
+}
+
+.grid-card p {
+    color: grey;
+    padding-bottom: 30px;
+}
+
+.grid-card img {
+    width: 22px;
+    padding: 0 10px;
+}
+
+.card-icons {
+    margin-left: 300px;
+}
+
+
+.main-grid {
+    padding: 0 20px;
+}
+
+.card-area h1 {
+    font-size: 1.4rem;
+}
+
+.card-heading {
+    font-size: 1.2rem;
+}
